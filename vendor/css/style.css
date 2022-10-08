@@ -1,0 +1,9 @@
+.identify-card {
+    border: 1px solid;
+    border-color: rgb(138, 74, 74);
+    height: 5rem;
+    width: 15rem;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    border-radius: 3px;
+}
