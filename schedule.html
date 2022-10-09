@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webte1-Zadanie1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Môj rozvrh</title>
+    <link rel="stylesheet" href="css/general.css">
 </head>
-<body>
+<body class="page-content">
     <header>
         <h1>Hlavný nadpis</h1>
     </header>
@@ -15,9 +15,78 @@
         <ul>
             <li><a href="index.html">O mne</a></li>
             <li><a href="resume.html">Životopis</a></li>
-            <li><a href="schedule.html">Môj rozvrh</a></li>
-            <li><a href="image.html">Interaktívny obrázok</a></li>
+            <li><a class="button-active" href="schedule.html">Môj rozvrh</a></li>
+            <li><a href="image.html">Mapa Slovenska</a></li>
         </ul>
     </nav>
+    <section>
+        <h2>Môj rozvrh</h2>
+        <div class="table-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Deň</th>
+                        <th>07:00</th>
+                        <th>08:00</th>
+                        <th>09:00</th>
+                        <th>10:00</th>
+                        <th>11:00</th>
+                        <th>12:00</th>
+                        <th>13:00</th>
+                        <th>14:00</th>
+                        <th>15:00</th>
+                        <th>16:00</th>
+                        <th>17:00</th>
+                        <th>18:00</th>
+                        <th>19:00</th>
+                        <th>20:00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Po</td>
+                        <td colspan="14"></td>
+                    </tr>
+                    <tr>
+                        <td>Ut</td>
+                        <td></td>
+                        <td colspan="2" class="table-cell-seminar">aza<br>ab300</td>
+                        <td colspan="2" class="table-cell-lecture">OS<br>ab300</td>
+                        <td></td>
+                        <td colspan="2" class="table-cell-lecture">SWI<br>ab300</td>
+                        <td colspan="2" class="table-cell-lecture">WEBTE1<br>cd300</td>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td>St</td>
+                        <td colspan="2"></td>
+                        <td class="table-cell-lecture">SWI<br>ab300</td>
+                        <td colspan="3"></td>
+                        <td colspan="2" class="table-cell-lecture">AZA<br>ab300</td>
+                        <td colspan="2" class="table-cell-lecture">WEBTE1<br>cd300</td>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td>Št</td>
+                        <td></td>
+                        <td colspan="2" class="table-cell-seminar">webte1<br>cpu-c</td>
+                        <td class="table-cell-seminar">swi<br>c117b</td>
+                        <td></td>
+                        <td class="table-cell-lecture">OS<br>cd300</td>
+                        <td class="table-cell-seminar">os<br>cd300</td>
+                        <td></td>
+                        <td colspan="2" class="table-cell-tk">tk5<br>pos</td>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td>Pi</td>
+                        <td colspan="2"></td>
+                        <td class="table-cell-seminar">aza<br>bc150</td>
+                        <td colspan="11"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 </body>
 </html>
