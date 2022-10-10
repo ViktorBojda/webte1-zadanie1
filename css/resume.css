@@ -1,0 +1,19 @@
+img {
+    width: 150px;
+    float: left;
+}
+
+.grid-double-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column-left {
+    background-color: rgb(59, 107, 71);
+    padding: 0 0 1rem 0;
+}
+
+.column-right {
+    background-color: rgb(92, 44, 60);
+    padding: 0 0 0 1rem;
+}

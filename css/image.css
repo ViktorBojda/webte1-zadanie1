@@ -1,0 +1,85 @@
+img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.interactive-map {
+    width: 100%;
+    position: relative;
+}
+
+.map-point {
+    aspect-ratio: 1 / 1;
+    width: 2.5%;
+    position: absolute;
+    background: red;
+    transform-origin: bottom left;
+    transition: transform 1s;
+}
+
+.opposite {
+    transform-origin: top right;
+}
+
+.map-point:hover{
+    transform: scale(10);
+}
+
+.description {
+    display: none;
+    /* width: 100%; */
+    /* visibility: hidden;
+    opacity: 0;
+    overflow: hidden; */
+}
+
+/* .description {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s width 1s height 1s;
+} */
+
+.circle {
+    border-radius: 50%;
+}
+
+.bratislava {
+    top: 64%;
+    left: 7%;
+}
+
+.nitra {
+    top: 59%;
+    left: 21.5%;
+}
+
+.trnava {
+    top: 58.3%;
+    left: 13.8%;
+}
+
+.trencin {
+    top: 39%;
+    left: 20.2%;
+}
+
+.banska-bystrica {
+    top: 43.5%;
+    left: 39%;
+}
+
+.zilina {
+    top: 27%;
+    left: 32%;
+}
+
+.presov {
+    top: 30%;
+    left: 73.5%;
+}
+
+.kosice {
+    top: 41%;
+    left: 74.7%;
+}
