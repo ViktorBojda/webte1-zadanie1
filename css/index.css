@@ -2,17 +2,29 @@ img {
     width: 200px;
     float: left;
     border-radius: 10%;
+    box-shadow: 10px 5px 5px gray;
 }
 
-p, img {
-    margin: 0 1% 1% 1%;
-}
-
-section article p {
-    margin-bottom: 0;
+section p, img {
+    margin: 0 2% 2% 2%;
 }
 
 section article ul {
     list-style-position: inside;
     margin-top: 0;
+}
+
+.list p {
+    margin: 0 2% 0 2%;
+}
+
+.list {
+    display: inline-block;
+}
+
+.quote {
+    padding: 1%;
+    float: right;
+    font-size: larger;
+    font-style: italic;
 }

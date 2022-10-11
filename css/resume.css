@@ -3,17 +3,21 @@ img {
     float: left;
 }
 
+p, img {
+    margin: 2% 2% 0 2%;
+}
+
 .grid-double-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .column-left {
-    background-color: rgb(59, 107, 71);
+    background-color: rgb(115, 216, 140);
     padding: 0 0 1rem 0;
 }
 
 .column-right {
-    background-color: rgb(92, 44, 60);
+    background-color: rgb(206, 91, 130);
     padding: 0 0 0 1rem;
 }

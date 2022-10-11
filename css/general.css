@@ -8,21 +8,17 @@
 }
 
 body {
-    background-color: rgb(24, 60, 90);
+    background-color: rgb(200, 211, 220);
     font-family: 'robotoregular', Arial, Helvetica, sans-serif;
-    color: white;
 }
 
 h1, h2 {
+    padding: 2%;
     text-align: center;
 }
 
 h1 {
-    letter-spacing: 1rem;
-}
-
-h2 {
-    margin: 2% 3%
+    letter-spacing: 2.5rem;
 }
 
 img {
@@ -32,10 +28,13 @@ img {
 .page-content {
     max-width: 1024px;
     margin: auto;
+    background-clip: padding-box;
+    background-color: white;
+    box-shadow: 10px 5px 5px gray;
 }
 
 .navbar {
-    width: 100%;
+    margin: 1% auto;
 }
 
 .navbar ul {
