@@ -9,7 +9,7 @@ section p, img {
     margin: 0 2% 2% 2%;
 }
 
-section article ul {
+section ul {
     list-style-position: inside;
     margin-top: 0;
 }
@@ -28,4 +28,16 @@ section article ul {
     float: right;
     font-size: larger;
     font-style: italic;
+}
+
+@media all and (max-width: 760px) {
+    section p, img {
+        margin: 0 3% 2% 3%;
+    }
+}
+
+@media all and (max-width: 580px) {
+    section p, img {
+        margin: 0 4% 2% 4%;
+    }
 }

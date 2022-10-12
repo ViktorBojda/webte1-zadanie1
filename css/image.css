@@ -2,9 +2,8 @@ img {
     width: 100%;
 }
 
-strong {
-    font-weight: bold;
-    font-size: larger;
+a {
+    color: inherit;
 }
 
 .description img {
@@ -14,8 +13,6 @@ strong {
 
 p {
     margin: 2%;
-    font-size: 0.15vw;
-    color: white;
 }
 
 .interactive-map {
@@ -40,7 +37,7 @@ p {
     transform-origin: top right;
 }
 
-.map-point:hover {
+.map-point:hover, .map-point:active {
     transform: scale(10);
     z-index: 10;
 }
@@ -48,54 +45,57 @@ p {
 .description {
     display: flex;
     flex-flow: column;
+    align-content: center;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+    color: white;
+    font-size: 0.12vw;
     height: 100%;
     opacity: 0;
     transition: opacity 1s;
 }
 
-.map-point:hover .description{
+.map-point:hover .description, .map-point:active .description{
     opacity: 1;
 }
 
 .bratislava {
-    top: 64%;
+    top: 58%;
     left: 7%;
 }
 
 .nitra {
-    top: 59%;
-    left: 21.5%;
+    top: 53%;
+    left: 23%;
 }
 
 .trnava {
-    top: 58.3%;
-    left: 13.8%;
+    top: 50.7%;
+    left: 14.7%;
 }
 
 .trencin {
-    top: 39%;
-    left: 20.2%;
+    top: 34%;
+    left: 22.2%;
 }
 
 .banska-bystrica {
-    top: 43.5%;
-    left: 39%;
+    top: 39.5%;
+    left: 41%;
 }
 
 .zilina {
-    top: 27%;
+    top: 26%;
     left: 32%;
 }
 
 .presov {
-    top: 30%;
+    top: 34%;
     left: 73.5%;
 }
 
 .kosice {
-    top: 41%;
-    left: 74.7%;
+    top: 43%;
+    left: 74%;
 }

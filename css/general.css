@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'robotoregular';
-    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-regular-webfont.woff') format('woff'),
-         url('../fonts/roboto-regular-webfont.ttf') format('truetype');
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,11 +18,31 @@ h1, h2 {
 }
 
 h1 {
-    letter-spacing: 2.5rem;
+    letter-spacing: 2rem;
+    text-indent: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 img {
     height: auto;
+}
+
+strong {
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer {
+    color: white;
+    text-align: right;
+    background-color: rgb(45, 57, 83);
+    padding: 0 2%;
 }
 
 .page-content {
@@ -59,9 +79,37 @@ img {
 }
 
 .navbar ul li a.button-active:hover {
-    background: green;
+    background-color: rgb(104, 135, 202);
+}
+
+@media all and (max-width: 760px) {
+    .navbar ul {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .navbar ul {
+        flex-flow: column wrap;
+    }
+
+    .navbar ul li a {
+        text-align: center;
+    }
 }
 
 .button-active {
-    background: green;
+    background-color: rgb(104, 135, 202);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.box-bottom-solid-black {
+    border-bottom: 1px solid black;
 }
