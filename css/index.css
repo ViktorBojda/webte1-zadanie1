@@ -15,15 +15,16 @@ section article ul {
 }
 
 .list p {
-    margin: 0 2% 0 2%;
+    margin: 0 2%;
 }
 
 .list {
     display: inline-block;
+    width: 100%;
 }
 
 .quote {
-    padding: 1%;
+    margin: 1%;
     float: right;
     font-size: larger;
     font-style: italic;
